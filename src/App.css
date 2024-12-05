@@ -1,0 +1,125 @@
+html, body {
+  margin: 0; 
+  padding: 0; 
+  height: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+.navbar {
+  background-color: black !important;
+  padding: 1rem; 
+  width: 100%;
+}
+
+.nav-link {
+  color: grey !important;
+  display: flex;
+  align-items: center; 
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: grey !important; 
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center; 
+}
+
+.navbar-brand:hover {
+  color: white; 
+}
+
+.shopping-cart-button {
+  background-color: #ffae00 !important; 
+  color: white; 
+  border: none; 
+  margin-left: auto; 
+  display: flex;
+  align-items: center; 
+}
+
+.shopping-cart-button:hover {
+  background-color: rgba(255, 255, 0, 0.879); 
+}
+
+.story-container, .ingredients-container, .chefs-container, .delivery-container {
+  text-align:left; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 90%; 
+}
+
+.story-container {
+  flex-direction: column; 
+  height: 35vh;
+  font-size: 0.8rem;
+}
+
+.ingredients-container, .chefs-container, .delivery-container {
+  width: 90%; 
+  margin: 20px 0; 
+  margin-bottom: -1rem;
+}
+
+.ingredients-image, .chefs-image, .delivery-image {
+  width: 40%; 
+  height: auto; 
+}
+
+.ingredients-content, .delivery-content {
+  width: 60%; 
+  padding-left: 70px; 
+  text-align: left; 
+}
+.chefs-content {
+  width: 60%;
+  padding-left: 20px; 
+  text-align: left; 
+}
+
+.ingredients-heading, .chefs-heading, .delivery-heading {
+  font-size: 1rem;
+  margin-bottom: 0.5 rem; 
+}
+
+.ingredients-content p, .chefs-content p, .delivery-content p {
+  margin: 0; 
+  font-size: 0.8rem;
+}
+.footer {
+  background-color: white; 
+  color: orange; 
+  text-align: center; 
+  padding: 10px 0;
+  font-size: 0.8rem; 
+  position: relative; 
+  bottom: 0;
+  width: 100%; 
+}
+.shopping-cart-button {
+  background-color: #ffae00 !important; 
+  color: white; 
+  border: none; 
+  margin-left: auto; 
+  display: flex;
+  align-items: center; 
+}
+
+.shopping-cart-button i {
+  color: white; 
+}
+
+.shopping-cart-button:hover {
+  background-color: rgba(255, 255, 0, 0.879); 
+}

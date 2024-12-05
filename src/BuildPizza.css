@@ -1,0 +1,86 @@
+.build-pizza-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff;
+}
+
+.ingredients-table {
+    width: 100%; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ingredients-table tr {
+    border-bottom: 1px solid #ddd; 
+    height: 50px; 
+}
+
+.ingredients-table td {
+    padding: 5px;
+    text-align: center; 
+    vertical-align: middle; 
+    border-right: 1px solid #ddd;
+}
+
+.ingredients-table td:last-child {
+    border-right: none; 
+}
+
+.ingredient-image {
+    width: 40px; 
+    height: 40px; 
+    object-fit: cover; 
+    margin-right: 10px; 
+    float: left; 
+}
+
+.ingredient-info {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-grow: 1; 
+}
+
+.ingredient-info h4,
+.ingredient-info p {
+    margin: 0 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+}
+.ingredients-table label {
+    color: orange; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+.ingredients-table input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+.build-pizza-button {
+    background-color: black; 
+    color: orange; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; 
+    display: block; 
+    width: fit-content; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.build-pizza-button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+}
+h3 {
+    margin: 20px 0; 
+}

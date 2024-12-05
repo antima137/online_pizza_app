@@ -1,0 +1,19 @@
+.table {
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  .table img {
+    border-radius: 4px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 20px; 
+  }
+  
